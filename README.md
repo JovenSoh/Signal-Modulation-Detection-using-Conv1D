@@ -25,6 +25,15 @@ SNR                          |-10dB – 10dB
 Time                         |1𝜇𝑠
 
 ## Results
+After 200 epochs, the accuracy was around 90%, this may be attributed to the ideal conditions of the signal.
+Further improvements can be made by training the data on more unique data such as real signal environments.
+Work could also be done to measure the sensitivity of the neural net and measures its performance over 
+different SNR and sweeps rates to study the neural net's limitations and suggest improvements. <br>
+
+![alt text](Accuracy.png "Accuracy of Neural Net")
+
+
+
 
 ## Dependencies
 Pandas <br>
