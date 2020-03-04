@@ -25,13 +25,20 @@ SNR                          |-10dB – 10dB
 Time                         |1𝜇𝑠
 
 ## Results
-After 200 epochs, the accuracy was around 90%, this may be attributed to the ideal conditions of the signal.
-Further improvements can be made by training the data on more unique data such as real signal environments.
-Work could also be done to measure the sensitivity of the neural net and measures its performance over 
-different SNR and sweeps rates to study the neural net's limitations and suggest improvements. <br>
+After 200 epochs, the accuracy was around 90%, this may be attributed to the ideal conditions of the input signal. <br>
 
 ![alt text](Accuracy.png "Accuracy of Neural Net") ![alt text](Loss.png "Is this loss?")
 
+The best weights from model training was saved and used to evaluate against a test set of signals with similar conditions. <br>
+The model's performance is optimal. However, there is some attrition in misclassifying a BPSK signal as a CW signal. <br>
+This may be due to the similarities of the two signals in the time-domain. Hence, it is recommended to explore the performance of the model in the frequency domain using FFT. <br> 
+![alt text](Confusion-Matrix.png "Confusion matrix of model evaluation")
+
+## Conclusion
+In conclusion, a neural net to classify the modualtion of the signal is developed.
+Further improvements can be made by training the data on more unique data such as real signal environments.
+Work could also be done to measure the sensitivity of the neural net and measures its performance over 
+different SNR and sweeps rates to study the neural net's limitations and suggest improvements. <br>
 
 
 
