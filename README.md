@@ -30,7 +30,7 @@ Further improvements can be made by training the data on more unique data such a
 Work could also be done to measure the sensitivity of the neural net and measures its performance over 
 different SNR and sweeps rates to study the neural net's limitations and suggest improvements. <br>
 
-![alt text](Accuracy.png "Accuracy of Neural Net")
+![alt text](Accuracy.png "Accuracy of Neural Net") ![alt text](Loss.png "Is this loss?")
 
 
 
